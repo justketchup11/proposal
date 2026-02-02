@@ -1,0 +1,81 @@
+body{
+      height: 100vh;
+  overflow: hidden;
+  background-color: darkgreen;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.slde{
+  position: relative;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+   width: 100vw;
+  height: 100vh;
+}
+
+
+.slide {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+  background-image: url(ChatGPT\ Image\ 30\ янв.\ 2026\ г.\,\ 21_18_38.png);
+}
+
+
+#firstpg {
+  display: flex;
+  overflow: hidden;
+}
+
+
+.slide:target {
+  display: flex;
+}
+
+
+button {
+  padding: 12px 26px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background: black;
+  color: white;
+  justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.button1{
+height: 100px;
+width: 200px;
+}
+
+.button2{
+    height: 10px;
+width: 20px;
+}
+
+.ender{
+  background-image: url(Ender_Pearl_JE3_BE2.png);
+}
+
+img {
+  mix-blend-mode: screen;
+}
